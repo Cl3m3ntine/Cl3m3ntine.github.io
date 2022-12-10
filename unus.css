@@ -1,0 +1,80 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;;
+    font-size: 20pt;
+
+    background-image: "unus.jpg";
+    background-size: cover;   
+    background-repeat: no-repeat;
+    
+    background-color: #000000;
+
+    color: rgb(0, 0, 0);
+
+    line-height: 14pt;
+
+    padding-left: 5pt;
+
+    padding-right: 5pt;
+
+    padding-top: 5pt;
+
+    text-align: center;
+
+
+}
+
+head{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #DAF7A6;
+  background-color: #DAF7A6;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #000000;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 50px;
+  right: 81px;
+  font-size: 75px;
+}
+
+
+
+.text-1 {
+  color: white;
+}
